@@ -1,0 +1,181 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+    nav .logo h2 {
+    font-size:20px;
+    font-weight:500;
+    }
+/*--------------------------------------------product---------------------------------------------*/
+.products .row ,
+.about .about-content,
+.purchase .container, 
+.about-background .background-info,
+.members,
+.services .services-group ,
+.clients .client,
+.location .location-content,
+.message .form{
+    display: block;
+}
+    div.latest-products .products .product-item,
+   .members .member,
+   .services .services-group .service-item {
+    width:100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+/*----------------------------------------------about section-------------------------------------------*/
+.about .sec-heading,
+ .Team .sec-heading,
+ .about-background .sec-heading h2,
+.background-info,
+.purchase .container,
+.about .about-content .content,
+nav ul.navigation-link li.nav-item a,
+.purchase .container ,
+.sec-heading,
+.about-info {
+    text-align: center;
+}
+.about .about-content .content {
+    margin-bottom:50px;
+}
+.about .about-content .content button,
+.message form input[type="submit"] {
+    width:80%;
+} 
+.image img {
+    width:100%;
+}
+.purchase button {
+    width:100%;
+    margin-top:15px;
+}
+/*--------------------------------------------------start of Product page-------------------------------*/
+.latest-products .filter {
+    display:none;
+}
+/*-----------------------------------------------start of About page------------------------------------*/
+.clients .client a,
+.clients .client img {
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+}
+/*------------------------------------------------contact Page------------------------------------------*/
+section.message .form form {
+    width:100%;
+    margin-bottom:30px;
+}
+.location .map iframe {
+    width:100%!important;
+    margin-bottom:30px;
+}
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+    body {
+        overflow-x: hidden;
+    }
+    /*--------------------------------------------product---------------------------------------------*/
+.about .about-content,
+.purchase .container, 
+.about-background .background-info,
+.location .location-content,
+.message .form{
+    display: block;
+}
+.products .rows
+.services .services-group ,
+div.latest-products .products ,
+.members,
+.clients .client {
+    display:flex;
+    flex-wrap:wrap;
+}
+.services .services-group .service-item,
+div.latest-products .products .product-item,
+.members .member,
+.clients .client a
+{
+    flex: 0 0 50%;
+    max-width:50%;
+    width: 50%;
+}
+
+/*----------------------------------------------about section-------------------------------------------*/
+.about .sec-heading,
+ .Team .sec-heading,
+ .about-background .sec-heading h2,
+.background-info,
+.purchase .container,
+.about .about-content .content,
+nav ul.navigation-link li.nav-item a,
+.purchase .container ,
+.sec-heading,
+.about-info {
+    text-align: center;
+}
+.about .about-content .content {
+    margin-bottom:50px;
+}
+.about .about-content .content button,
+.message form input[type="submit"] {
+    width:80%;
+} 
+.image img {
+    width:100%;
+}
+.purchase button {
+    width:100%;
+    margin-top:15px;
+}
+/*--------------------------------------------------start of Product page-------------------------------*/
+.latest-products .filter {
+    display:none;
+}
+/*------------------------------------------------contact Page------------------------------------------*/
+section.message .form form {
+    width:100%;
+    margin-bottom:30px;
+}
+.location .map iframe {
+    width:100%!important;
+    margin-bottom:30px;
+}
+
+}
+@media only screen and (max-width: 991px)
+{
+body {
+    overflow-x: hidden;
+}
+ul.navigation-link {
+    display:none;
+    opacity:0;
+    background-color: rgba(0,0,0,0.7);
+}
+nav ul.navigation-link li.nav-item {
+    display: block;
+    border-bottom: 1px solid #000;
+  }
+  .banner {
+    height: 100vh;
+  }
+  .banner .text-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .banner .text-content h2 {
+    margin-top:20px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+}
+@media only screen and (max-width:991px) {
+    nav .logo {
+        flex: 0 0 25%;
+      }
+      av ul.navigation-link {
+        flex: 0 0 75%;
+      }
+}
